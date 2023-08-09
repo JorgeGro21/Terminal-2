@@ -1,0 +1,5 @@
+sueño<-read.csv("Sueño.csv")
+summary(sueño)
+boxplot(sueño$Sleep.Duration)
+mean(sueño$Sleep.Duration)
+mean(sueño$Physical.Activity)
